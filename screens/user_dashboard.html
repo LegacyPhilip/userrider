@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="../style/main.css"> -->
+    <title>User Dashboard</title>
+
+    <style>
+.tools ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F9F9F9 !important;
+}
+
+.tools ul li{
+    list-style: none;
+    padding: 2%;
+    /* border-right: 0.1px solid gray; */
+
+}
+
+.tools ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.tools ul li a img{
+    width: 20% !important;
+}
+
+
+.tools ul li:hover{
+    transition: 0.2s;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+    background-color: #FFA500  !important;
+}
+
+
+
+
+.ridercheckout h4{
+    margin-left: -105% !important;
+    margin-top: 2%;
+}
+.ridercheckout .container{
+    margin-top: 2% !important;
+}
+
+.ridercheckout span{
+    margin-left: 60%;
+}
+.ridercheckout h3{
+    font-size: 20px !important;
+    margin-left: 8%;
+    margin-top: 5%;
+    font-weight: bold;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.ridercheckout h2{
+    font-size: 25px !important;
+}
+
+.ridercheckout .col{
+    /* border: 2px solid red; */
+    margin-left: 2%;
+    background-color: #fff;
+}
+.checkoutbody a{
+    width: 50% !important;
+    text-align: left !important;
+    font-weight: bold !important;
+    border:1px solid #080807 !important;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+.checkoutbody a:hover{
+    transition: 0.4s;
+    background-color: #000 !important;
+    color: #fff !important;
+    
+}
+
+.checkoutstatus h4{
+    margin-left: 15% !important;
+    margin-top: 4%;
+}
+.checkoutstatus .container{
+    margin-top: 2% !important;
+}
+
+.userprofile h4{
+    margin-left: 15% !important;
+    margin-top: 4%;
+}
+.userprofile .container{
+    margin-top: 2% !important;
+    /* : 15% !important; */
+}
+
+
+ .userprofile .profile-image{
+    padding-left: 20% !important;
+}
+.userprofile .profile-content h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2% !important;
+}
+
+.booking-form label{
+    /* text-align: ; */
+    /* margin-left: -50% !important; */
+    /* color: pink !important; */
+}
+
+    </style>
+</head>
+<body>
+    
+    <!-- [][][][][][][][][][][][][][ Check out Section ][][][][][][][][][][][][]][]-->
+
+    <section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+
+                <!-- intro to platform tools -->
+
+                <div class="intro">
+            <h2>Lets Book Some Ride</h2>
+            <p>feel free to book any of our riders and expore all options</p>
+        </div>
+
+        <!-- platform tools -->
+
+        <div class="tools shadow-lg">
+            <ul>
+                <li><a href="#checkoutrider"><span> <img src="../images/checkoutrider.png" alt=""></span> Checkout rides</a></li>
+                <li><a href=""> <span> <img src="../images/booking.png" alt=""></span>  Make a Booking</a></li>
+                <li><a href=""> <span> <img src="../images/status.png" alt=""></span> Checkout Status</a></li>
+                <li><a href=""><span> <img src="../images/profile.png" alt=""></span> Your Profile</a></li>
+
+
+
+            </ul>
+        </div>
+        </div>
+         </div>
+    </div>
+
+</section>
+
+
+
+<!-- [][][][][][][][][][[ Checkout Rider ][[][][][][][][][][][][][][]]] -->
+
+<!-- riders desc section -->
+<section class="ridercheckout">
+    <h4><span> <img src="../images/checkoutrider.png" alt=""></span> Checkout Riders</h4>
+
+    <div class="container ">
+        <div class="row">
+
+            <div class="col shadow-lg p-5">
+
+                <!-- ride name and logo -->
+                <div class="ridename">
+                    <span class="d-flex">
+                        <!-- rider logo -->
+                        <img src="../images/rider.png" alt="" width="35">
+                        <h3>LiteRide</h3>
+                    </span>
+                </div>
+
+              <!-- checkout body: name of rider, disc and booking button -->
+                <div class="checkoutbody mt-3">
+            <h2>Legacy Tanadeba</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corrupt!</p>
+            <a class="btn btn-primary mt-2"> Book</a>
+        </div>
+            </div>
+         <div class="col shadow-lg p-5">
+
+                <!-- ride name and logo -->
+                <div class="ridename">
+                    <span class="d-flex">
+                        <!-- rider logo -->
+                        <img src="../images/rider.png" alt="" width="35">
+                        <h3>LiteRide</h3>
+                    </span>
+                </div>
+
+              <!-- checkout body: name of rider, disc and booking button -->
+                <div class="checkoutbody mt-3">
+            <h2>Legacy Tanadeba</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corrupt!</p>
+            <a class="btn btn-primary mt-2"> Book</a>
+        </div>
+            </div>
+           <div class="col shadow-lg p-5">
+
+                <!-- ride name and logo -->
+                <div class="ridename">
+                    <span class="d-flex">
+                        <!-- rider logo -->
+                        <img src="../images/rider.png" alt="" width="35">
+                        <h3>LiteRide</h3>
+                    </span>
+                </div>
+
+              <!-- checkout body: name of rider, disc and booking button -->
+                <div class="checkoutbody mt-3">
+            <h2>Legacy Tanadeba</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas corrupt!</p>
+            <a class="btn btn-primary mt-2" data-toggle="modal" data-target="#bookmodal"> Book</a>
+        </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- [][][][][][][][][][][][][[ Checkput Status ][][][][][][][][][][][][][][[][]]] -->
+
+<section class="checkoutstatus">
+    <h4><span> <img src="../images/status.png" alt=""></span> Checkout Riders</h4>
+
+    <div class="container ">
+        <div class="row">
+
+            <div class="col-md-12 shadow-lg p-5 text-center">
+                <!-- heading of your booking status -->
+                <div class="heading  ">
+                <img src="../images/accepted.png" alt="">
+                <h3>Dispatch Confirmed</h3>
+                <span><img src="../images/rider.png" alt="" width="40"> LiteRide</span>
+                <span><b> Legacy Tanadeba</b></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus placeat rerum doloribus tenetur quam officia expedita. Iure soluta ipsum, similique tempore accusantium cupiditate, ad dolores optio voluptatibus eius, ut expedita?</p>
+            </div>
+            <!-- Rider identity and item dispatched -->
+            <div class="idenitity">
+               
+                <h3>Item: 1kg of iron gas</h3>
+                <h3> Destination: ikeja</h3>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- [][]][][][[][][][][][][][][][][][][ User Profile ][[][][][][][][][][][][]]] -->
+<section class="userprofile">
+    <h4><span> <img src="../images/profile.png" alt="" width="50"></span> My Profile</h4>
+
+    <div class="container ">
+        <div class="row">
+            <!-- profile image -->
+    <div class="col-md-4 profile-image">
+        <img src="../images/fingerprint.png" alt="" width="90">
+    </div>
+
+    <!-- profile content: User name and full name -->
+           <div class="col-md-8 profile-content">
+               <h2>Registered Legal Name: Legacy Tanadeba</h2>
+               <h2>Registered User Name: LegalBoker</h2>
+
+           </div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
+
+
+
+<!-- [][][][][[][][][][][][][][][][ Modal for booking ][][][][][][][][][][][]] -->
+<div class="modal fade" id="bookmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-dark " id="exampleModalLongTitle">booking</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <!-- <span aria-hidden="true">&times;</span> -->
+          </button>
+        </div>
+        <div class="modal-body text-dark  p-3">
+            <div class="booking-intro text-center">
+                <span class="text-center"><img src="../images/booking.png" alt="" width="20%"></span>
+          
+                <h2 class="text-center text-dark">MAKE A BOOKING</h2>
+                <p class="text-dark">book your dispatcher at your own comfort </p>
+        
+            </div>
+         
+  
+          <!-- booking form -->
+  
+          <form action="" method="post" class="booking-form">
+
+            <div class="mt-5">
+                <label for="username"> Dispatch Name</label>
+                <h3>LiteRide</h3>
+              </div>
+  
+            <div class="mt-5">
+              <label for="username"> Name to use on Dispatch</label>
+              <input type="text" placeholder="Legacy Tanadeba" class="form-control">
+            </div>
+
+            <div class="mt-5">
+                <label for="username"> Item</label>
+                <input type="text" placeholder="Legacy Tanadeba" class="form-control">
+              </div>
+
+            <div class="mt-5">
+                <label for="username"> Destination</label>
+                <input type="text" placeholder="Legacy Tanadeba" class="form-control">
+              </div>
+  
+            <div class="mt-5">
+              <label for="password"> Password</label>
+              <input type="password" placeholder="Legacy Tanadeba" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal"  data-toggle="modal" data-target="#signupmodal" >Book Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+

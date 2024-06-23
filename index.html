@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="style/main.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Dispatch Rider System</title>
+</head>
+<body class="landingpage">
+  <!-- signup Section -->
+<section >
+  <!-- Brefing -->
+  <div class="container m-auto landing-container" >
+<div class="col-md-12">
+  <div class="image-disc">
+  <span><img src="images/user.png" alt="" width="5%"></span>
+  <span><img src="images/rider.png" alt="" width="5%"></span>
+</div>
+    <h2 class="text-center heading">DISPATCH RIDER SYSTEM</h2>
+    <p class="text-center">gain access to your dashboard by clicking on your catigoery</p>
+
+    <!-- Rider user links   -->
+
+    <div class="links " >
+      <button class="btn btn-lg btn-dark" data-toggle="modal" data-target="#signupmodal"> User</button>
+      <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#riderloginmodal"> Rider</button>
+
+    </div>
+  </div>
+  </div>
+  
+</section>
+
+
+
+
+</body>
+</html>
+
+<!-- [][][][][][][][][][][ USER SIGNUP AND LOGIN MODAL][][][][][][][][][][][][][][][] -->
+
+<!-- Signup  Modal -->
+<div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark " id="exampleModalLongTitle">Signup</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+      </div>
+      <div class="modal-body text-dark text-center p-3">
+        <span><img src="images/user.png" alt="" width="20%"></span>
+        <h2 class="text-center text-dark"> SIGNUP</h2>
+        <p class="text-dark">Create an account to access outstanding features </p>
+
+
+        <!-- signup form -->
+
+        <form action="" method="post">
+          <div class="mt-5">
+            <label for="fullname"> Full Name</label>
+            <input type="text" placeholder="Legacy Tanadeba" class="form-control">
+          </div>
+
+          <div class="mt-5">
+            <label for="username"> UserName</label>
+            <input type="text" placeholder="legalmatters" class="form-control">
+          </div>
+
+          <div class="mt-5">
+            <label for="password"> Password</label>
+            <input type="password" placeholder="(M@s$1)" class="form-control">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a  href="screens/user_dashboard.html" class="btn btn-primary">Create Now</a>
+
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#loginmodal">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- [][][][][][][][][][][]][][][][][][][][][][][][][][ Login Modal ]]][][[][][][][][][][][] -->
+
+
+<!-- login  Modal -->
+<div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark " id="exampleModalLongTitle">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+      </div>
+      <div class="modal-body text-dark text-center p-3">
+        <span><img src="images/padlock.png" alt="" width="20%"></span>
+        
+        <h2 class="text-center text-dark">Login</h2>
+        <p class="text-dark">Login to be in control </p>
+
+
+        <!-- login form -->
+
+        <form action="" method="post">
+         
+
+          <div class="mt-5">
+            <label for="username"> UserName</label>
+            <input type="text" placeholder="Legacy Tanadeba" class="form-control">
+          </div>
+
+          <div class="mt-5">
+            <label for="password"> Password</label>
+            <input type="password" placeholder="Legacy Tanadeba" class="form-control">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Login</button>
+
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"  data-toggle="modal" data-target="#signupmodal" >Create Account</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [][][][][][][][][][][ RIDER SIGNUP AND LOGIN MODAL][][][][][][][][][][][][][][][] -->
+
+<!-- Signup  Modal -->
+<div class="modal fade" id="ridermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-dark " id="exampleModalLongTitle">Signup as a rider</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+      </div>
+      <div class="modal-body text-dark text-center p-3">
+        <span><img src="images/rider.png" alt="" width="20%"></span>
+        <h2 class="text-center text-dark">I Want to Ride</h2>
+        <p class="text-dark">Create an account to become a rider </p>
+
+
+        <!-- signup form -->
+
+        <form action="" method="post">
+          <div class="mt-5">
+            <label for="fullname"> Full Name</label>
+            <input type="text" placeholder="Legacy Tanadeba" class="form-control">
+          </div>
+
+          <div class="mt-5">
+            <label for="username"> Ride Name</label>
+            <input type="text" placeholder="Legaal_Ride" class="form-control">
+          </div>
+
+          <div class="mt-5">
+            <label for="password"> Password</label>
+            <input type="password" placeholder="Legacy Tanadeba" class="form-control">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Create Now</button>
+
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#riderloginmodal">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- [][][][][][][][][][][]][][][][][][][][][][][][][][ Login Modal ]]][][[][][][][][][][][] -->
+
+
+<!-- login  Modal -->
+<div class="modal fade" id="riderloginmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span><img src="images/padlock.png" alt="" width="20%"></span>
+        <h5 class="modal-title text-dark " id="exampleModalLongTitle">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <!-- <span aria-hidden="true">&times;</span> -->
+        </button>
+      </div>
+      <div class="modal-body text-dark text-center p-3">
+        <span><img src="images/padlock.png" alt="" width="20%"></span>
+
+        <h2 class="text-center text-dark">My Account</h2>
+        <p class="text-dark">Login to access dashboard </p>
+
+
+        <!-- login form -->
+
+        <form action="" method="post">
+         
+
+          <div class="mt-5">
+            <label for="username"> Ride Name</label>
+            <input type="text" placeholder="LegalRider" class="form-control">
+          </div>
+
+          <div class="mt-5">
+            <label for="password"> Password</label>
+            <input type="password" placeholder="Legacy Tanadeba" class="form-control">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a type="button" class="btn btn-primary" href="screens/riderdashboard.html">Login</a>
+
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"  data-toggle="modal" data-target="#ridermodal" >Create Account</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+

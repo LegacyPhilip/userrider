@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Roboto;
+}
+.landingpage{
+    background-color: #000;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.landing-container{
+    margin-top: 15% !important;
+}
+
+.image-disc{
+    text-align: center;
+}
+.links{
+    margin-left: 20% !important;
+}
+.links button{
+    width: 40% !important;
+}
+.links .btn-dark{
+    border: 0 !important;
+    background-color: #FFA500 !important;
+}
+
+.links .btn-primary{
+    border: 0 !important;
+
+}
+
+
+.modal-body{
+    border: 0 !important;
+    /* color: #000 !important; */
+    padding: 10% !important;
+}
+.modal-body input{
+    /* width: 85% !important; */
+    height: 6vh;
+    background-color: #F9F9F9 !important;
+    border: 0;
+    color: #BA9E9E !important;
+  }
+  
+  .modal-body input::placeholder{
+    color: #BA9E9E !important;
+   
+}
+
+label{
+    color:  #000 !important;
+    margin-left: -80% !important;
+}
